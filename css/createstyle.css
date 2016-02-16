@@ -1,0 +1,16 @@
+body {
+  background-image: url("/assets/bg/bg1.jpg");
+  background-size: cover; }
+
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+      color: white;
+  }
+
+#createLogo {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  height: auto;
+  width: 15%;
+}

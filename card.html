@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EDBL - Digital Cookbook</title>
+    <link rel="stylesheet" type:"text/css" href="css/cardstyle.css">
+    <!-- Fonts/Framework(Material lite) -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <!-- Menu start -->
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Menu</span>
+        </div>
+      </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">EDBL</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="create.html">Create New Recipe</a>
+        <a class="mdl-navigation__link" href="list.html">See My Recipes</a>
+        <a class="mdl-navigation__link" href="shop.html">Shopping List</a>
+        <a class="mdl-navigation__link" href="#">Friends</a>
+        <a class="mdl-navigation__link" href="#">Account</a>
+      </nav>
+    </div>
+    <!-- Menu end -->
+
+    <!-- logo -->
+    <a href="index.html">
+      <img id="cardLogo" src="assets/logo.png"/>
+    </a>
+
+    <!-- recipe card -->
+    <div id=recipeCard>
+      <div id="data">
+          <h1 id="heading">
+              Apple Crisp
+          </h1>
+          <p id="ingredients">
+              Ingredients:
+              <ul class="text">
+                  <li id="purch1">10 cups all-purpose apples peeled cored and sliced <i id="shop1" class="fa fa-cart-arrow-down"></i></li>
+                  <li id="purch2">1 cup white sugar <i id="shop2" class="fa fa-cart-arrow-down"></i> </li>
+                  <li id="purch3">1 tablespoon all-purpose flour <i id="shop3" class="fa fa-cart-arrow-down"></i> </li>
+                  <li id="purch4">1 teaspoon ground cinnamon <i id="shop4" class="fa fa-cart-arrow-down"></i> </li>
+                  <li id="purch5">1/2 cup water <i id="shop5" class="fa fa-cart-arrow-down"></i> </li>
+                  <li id="purch6">1 cup quick-cooking oats <i id="shop6" class="fa fa-cart-arrow-down"></i> </li>
+                  <li id="purch7">1 cup all-purpose flour <i id="shop7" class="fa fa-cart-arrow-down"></i> </li>
+                  <li id="purch8">1 cup packed brown sugar <i id="shop8" class="fa fa-cart-arrow-down"></i> </li>
+                  <li id="purch9">1/4 teaspoon baking powder <i id="shop9" class="fa fa-cart-arrow-down"></i> </li>
+                  <li id="purch10">1/4 teaspoon baking soda <i id="shop10" class="fa fa-cart-arrow-down"></i> </li>
+                  <li id="purch11">1/2 cup butter, melted <i id="shop11" class="fa fa-cart-arrow-down"></i> </li>
+              </ul>
+          </p>
+          <p id="recipe">
+              Recipe:
+              <ol class="text">
+                  <li id="li1">Preheat oven to 350 degrees F <em>(175 degree C)</em>.</li>
+                  <li id="li2">Place the sliced apples in a 9x13 inch pan. Mix the white sugar, 1 tablespoon flour and ground cinnamon together, and sprinkle over apples. Pour water evenly over all.</li>
+                  <li id="li3">Combine the oats, 1 cup flour, brown sugar, baking powder, baking soda and melted butter together. Crumble evenly over the apple mixture.</li>
+                  <li id="li4">Bake at 350 degrees F (175 degrees C) for about 45 minutes.</li>
+              </ol>
+          </p>
+      </div>
+    </div>
+
+    <div id=photoCard>
+      <i id=clearPhotos class="fa fa-eye-slash" style="font-size:48px;color:white"></i>
+      <div class="photo" id="photoOne"> </div>
+      <div class="photo" id="photoTwo"> </div>
+      <div class="photo" id="photoThree"> </div>
+    </div>
+
+    <script src="js/cardscript.js"></script>
+    <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+body {
+  background-image: url("/assets/bg/applecrisp.jpg");
+  background-size: cover; }
+
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+      color: white;
+  }
+
+#recipeCard {
+  position: absolute;
+  top: -2%;
+  left: 15%;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 5px;
+  height: 75%;
+  width: 32%;
+}
+
+#cardLogo {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  height: auto;
+  width: 15%;
+}
+
+p {
+    opacity: 1;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+#ingredients {
+    font-size: 2em;
+}
+
+.text {
+    opacity: 1;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+#heading {
+    opacity: 1;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+#ingredients {
+    opacity: 1;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+#recipe {
+    opacity: 1;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+#data {
+    position: absolute;
+    top: 3%;
+    left: 2.5%;
+}
+
+#photoCard {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  height: 75%;
+  width: 10%;
+}
+
+.photo {
+  height: 25%;
+  width: 100%;
+  margin: 10px 0px 0px 10px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+#photoOne {
+  background-image: url("/assets/bg/applecrisp4.jpg");
+  background-size: cover;
+}
+
+#photoTwo {
+  background-image: url("/assets/bg/applecrisp2.jpg");
+  background-size: cover;
+}
+
+#photoThree {
+  background-image: url("/assets/bg/applecrisp3.jpg");
+  background-size: cover;
+}
+
+#clearPhotos {
+  position: absolute;
+  top: 82%;
+  left: 75%;
+  opacity: .85;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.shop {
+  color: green;
+}
