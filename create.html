@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-blue.min.css" />
   </head>
   <body>
 
@@ -39,14 +40,38 @@
       <img id="createLogo" src="assets/logo.png"/>
     </a>
 
-    <!-- Search box -->
-    <div id="searchContainer">
-      <form action="card.html">
-        <input class="searchBox" type="text" placeholder="Search for an ingredient or dish name.">
+    <!-- name section -->
+    <div id="name">
+      <p class="headers">Recipe Name</p>
+      <form action="#">
+        <input class="inputBox" type="text" placeholder="Name your recipe.">
       </form>
     </div>
-    <div id="searchButton">
-      <i class="fa fa-search" style="font-size:36px;color:white"></i>
+
+    <!-- ingredients section -->
+    <div id="ingredients">
+      <p class="headers">Ingredients</p>
+      <form action="#">
+        <input class="inputBox" type="text" placeholder="Add ingredients here.">
+        <input class="inputBox" type="text" placeholder="Add ingredients here.">
+        <input class="inputBox" type="text" placeholder="Add ingredients here.">
+      </form>
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+        <i class="material-icons">add</i>
+      </button>
+    </div>
+
+    <!-- ingredients section -->
+    <div id="instructions">
+      <p class="headers">Instructions</p>
+      <form action="#">
+        <input class="inputBox" type="text" placeholder="Add instructions here.">
+        <input class="inputBox" type="text" placeholder="Add instructions here.">
+        <input class="inputBox" type="text" placeholder="Add instructions here.">
+      </form>
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+        <i class="material-icons">add</i>
+      </button>
     </div>
 
     <script src="js/createscript.js"></script>

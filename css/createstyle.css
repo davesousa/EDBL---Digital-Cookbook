@@ -14,3 +14,53 @@ body {
   height: auto;
   width: 15%;
 }
+
+.inputBox {
+  width: 75%;
+  height: 2em;
+  border-radius: 5px;
+  text-align: center;
+  font-family: raleway;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  border: 1 solid white;
+  box-shadow: none;
+  border-style: solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#name {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  width: 50%;
+  height: auto;
+}
+
+#ingredients {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  width: 50%;
+  height: auto;
+}
+
+#instructions {
+  position: absolute;
+  left: 30%;
+  top: 60%;
+  width: 50%;
+  height: auto;
+}
+
+.headers {
+  font-family: raleway;
+  font-size: 3em;
+  color: white;
+}
+
+.mdl-button--fab.mdl-button--colored {
+  background: white;
+}
