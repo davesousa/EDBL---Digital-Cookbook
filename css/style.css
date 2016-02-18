@@ -22,9 +22,11 @@ body {
   position: absolute;
   top: 55%;
   left: 33%;
+  width: 100%;
+  height: auto;
 }
 .searchBox {
-  width: 27em;
+  width: 33%;
   height: 2em;
   border-radius: 5px;
   text-align: center;
