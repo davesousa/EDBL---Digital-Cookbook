@@ -40,38 +40,45 @@
       <img id="createLogo" src="assets/logo.png"/>
     </a>
 
-    <!-- name section -->
-    <div id="name">
-      <p class="headers">Recipe Name</p>
-      <form action="#">
-        <input class="inputBox" type="text" placeholder="Name your recipe.">
-      </form>
-    </div>
+    <div id="container">
+      <!-- name section -->
+      <div id="name">
+        <p class="headers">Recipe Name</p>
+        <form action="#">
+          <input class="inputBox" type="text" placeholder="Name your recipe.">
+        </form>
+      </div>
 
-    <!-- ingredients section -->
-    <div id="ingredients">
-      <p class="headers">Ingredients</p>
-      <form action="#">
-        <input class="inputBox" type="text" placeholder="Add ingredients here.">
-        <input class="inputBox" type="text" placeholder="Add ingredients here.">
-        <input class="inputBox" type="text" placeholder="Add ingredients here.">
-      </form>
-      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-        <i class="material-icons">add</i>
-      </button>
-    </div>
+      <!-- ingredients section -->
+      <div id="ingredients">
+        <p class="headers">
+          Ingredients
+          <button id="ingredientsButton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            <i class="material-icons">add</i>
+          </button>
+        </p>
+        <form action="#">
+          <input class="inputBox" type="text" placeholder="Add ingredients here.">
+          <input class="inputBox" type="text" placeholder="Add ingredients here.">
+          <input class="inputBox" type="text" placeholder="Add ingredients here.">
+        </form>
 
-    <!-- ingredients section -->
-    <div id="instructions">
-      <p class="headers">Instructions</p>
-      <form action="#">
-        <input class="inputBox" type="text" placeholder="Add instructions here.">
-        <input class="inputBox" type="text" placeholder="Add instructions here.">
-        <input class="inputBox" type="text" placeholder="Add instructions here.">
-      </form>
-      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-        <i class="material-icons">add</i>
-      </button>
+      </div>
+
+      <!-- ingredients section -->
+      <div id="instructions">
+        <p class="headers">
+          Instructions
+          <button id="instructionButton" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+            <i class="material-icons">add</i>
+          </button>
+        </p>
+        <form action="#">
+          <input class="inputBox" type="text" placeholder="Add instructions here.">
+          <input class="inputBox" type="text" placeholder="Add instructions here.">
+          <input class="inputBox" type="text" placeholder="Add instructions here.">
+        </form>
+      </div>
     </div>
 
     <script src="js/createscript.js"></script>
