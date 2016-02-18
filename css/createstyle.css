@@ -1,5 +1,5 @@
 body {
-  background-image: url("/assets/bg/bg1.jpg");
+  background-image: url("/assets/bg/10.jpg");
   background-size: cover; }
 
   .demo-layout-transparent .mdl-layout__header,
@@ -22,7 +22,7 @@ body {
   text-align: center;
   font-family: raleway;
   font-size: 24px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(43, 43, 43, 0.36);
   color: white;
   border: 1 solid white;
   box-shadow: none;
